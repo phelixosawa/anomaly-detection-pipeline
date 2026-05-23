@@ -1,0 +1,26 @@
+# =========================
+# Data Configuration
+# =========================
+data_path: "data/raw/creditcard.csv"
+
+# =========================
+# Output Configuration
+# =========================
+output_dir: "outputs"
+
+# =========================
+# Model Parameters
+# =========================
+contamination: 0.0017
+n_estimators: 100
+random_state: 42
+
+# =========================
+# Train/Test Split
+# =========================
+test_size: 0.2
+
+# =========================
+# SHAP Configuration
+# =========================
+shap_sample_size: 2000
